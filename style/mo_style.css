@@ -1,0 +1,251 @@
+@media (min-width:1px) and (max-width:480px) {
+    .contaner{
+        width: 98%;
+        transform: translate(-50%,0);
+        position: relative;
+        left: 50%;
+    }
+    .box{
+        background: radial-gradient(var(--night-sky),var(--dark));
+        box-shadow: 1px 1px 10px 10px var(--dark);
+        width: 100%;
+        position: relative;
+        transform: translate(-50%,0);
+        left: 50%;
+        top: 80px;
+        border-radius: 20px;
+    }
+    /*-----------------------------------------------------*/
+    main{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/background.jpg);
+        background-size: cover;
+        box-shadow: 0px 10px 40px 35px var(--dark);
+        background-position: center;
+    }
+    header{
+        background-color: var(--night-sky);
+        text-align: center;
+        box-shadow: 0px 1px 15px 15px var(--night-sky);
+        position: fixed;
+        z-index: 1000;
+        padding-top: 15px;
+        width: 100%;
+
+    }
+    .logo{
+        color: var(--lite-green);
+        width: 100%;
+    }
+    nav{
+        margin-top: 8px;
+    }
+    .nav-ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav-ul-btn{
+        background-color: var(--night-sky);
+        color: var(--light);
+        border: 0;
+        font-size: 16px;
+    }
+    .nav-ul-btn:hover{
+        text-decoration: overline;
+        padding: 6px 0 0;
+        color: var(--lite-green);
+    }
+    .me{
+        width: 100%;
+    }
+    .me .img{
+        background-image: url(../images/issa.jpg);
+        border-radius: 50%;
+        background-size: cover;
+        box-shadow: 1px 1px 30px 15px var(--dark);
+        width: 200px;
+        height: 200px;
+        position: relative;
+        transform: translate(-50%,0);
+        left: 50%;
+        top: 140px;
+    }
+    .job-links{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 180px;
+    }
+    .job-links .hi{
+        color: var(--lite-green);
+        font-size: 22px;
+    }
+    .job-links p{
+        color: var(--light);
+        font-size: 20px;
+    }
+    .job-links .links{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 40px;
+        width: 100%;
+    }
+    .job-links .links .link a img{
+        width: 40px;
+        height: 40px;
+    }
+    #About{
+        width: 100%;
+        margin: 100px 0;
+    }
+    .about-index{
+        text-align: center;
+        padding: 12px 0;
+    }
+    .about-index .about-icon{
+        width: 60px;
+        height: 60px;
+    }
+    .about-index .text{
+        color: var(--light);
+        text-shadow: 10px 10px 8px var(--dark);
+        font-size: 16px;
+    }
+    .about-index .info-lists{
+        margin-top: 20px;
+    }
+    .about-index li .title{
+        color: var(--lite-green);
+        font-size: 18px;
+        text-shadow: 10px 10px 8px var(--dark);
+    }
+    .about-index li .value{
+        color: var(--light);
+        text-shadow: 10px 10px 8px var(--dark);
+        font-size: 16px;
+    }
+    .cv{
+        position: relative;
+        transform: translate(-50%,0);
+        left: 50%;
+        top: 120px;
+        background-color: var(--lite-green);
+        color: var(--night-sky);
+        border-radius: 10px;
+        font-size: 16px;
+        padding: 6px 10px;
+        border: 0;
+        transition: .4s;
+        box-shadow: 0px 2px 15px 15px var(--night-sky);
+    }
+    .cv a{
+        color: var(--light);
+    }
+    .cv:hover{
+        padding: 5px 8px;
+    }
+    #services{
+        width: 100%;
+        height: 100vh;
+    }
+    .services-index{
+        text-align: center;
+        padding: 20px 0;
+    }
+    .services-index .services-icon{
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+    .services-index .title{
+        font-size: 18px;
+        color: var(--lite-green);
+        margin-bottom: 4px;
+    }
+    .services-index .text{
+        text-shadow: 10px 10px 8px var(--dark);
+        font-size: 16px;
+        color: var(--light);
+    }
+    #Skills{
+        width: 100%;
+        height: 530px;
+        margin-top: 50px;
+    }
+    .box-skills{
+        padding: 20px 0 0;
+    }
+    .skills-icon{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        transform: translate(-50%,0);
+        left: 50%;
+    }
+    .skills_list_set{
+        text-align: center;
+    }
+    .skills_list_set .title{
+        font-size:  18px;
+        color: var(--lite-green);
+        margin-bottom: 10px;
+    }
+    .skills_list_set .skill_name{
+        font-size: 16px;
+        color: var(--light)
+    }
+    .sec_text{
+        font-size: 22px;
+        color: var(--night-sky);
+        font-weight: 700;
+        position: relative;
+        top: 120px;
+        left: 50%;
+        width: 98%;
+        transform: translate(-50%,0);
+        text-align: center;
+    }
+    #Works{
+        width: 100%;
+
+    }
+    .works-icon{
+        width: 60px;
+        height: 60px;
+    }
+    .box-works{
+        padding: 40px 0 20px;
+        text-align: center;
+    }
+    .text_of_work{
+        color: var(--lite-green);
+        font-size: 18px;
+    }
+    .glimpse{
+        color: var(--light);
+        font-size: 16px;
+    }
+    .list_works{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .list_works .work{
+        width: 90%;
+        height: 240px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 20px 1px var(--lite-green);
+        margin: 20px 0;
+    }
+    .end{
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        top: 80px;
+    }
+    .end h2{
+        color: var(--night-sky)
+    }
+}

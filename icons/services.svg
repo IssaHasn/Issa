@@ -1,0 +1,16 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#1D1D1B;stroke-width:15;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#1D1D1B;stroke-width:15;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<circle class="st0" cx="256" cy="256" r="227" id="id_101" style="stroke: rgb(19, 224, 204);"></circle>
+	<g>
+		<g>
+			<polyline class="st0" points="170.18,200.29 114.47,256 170.18,311.71 			" id="id_102" style="stroke: rgb(19, 224, 204);"></polyline>
+			<polyline class="st0" points="341.82,200.29 397.53,256 341.82,311.71 			" id="id_103" style="stroke: rgb(19, 224, 204);"></polyline>
+		</g>
+		<line class="st0" x1="281.43" y1="187.37" x2="230.57" y2="324.63" id="id_104" style="stroke: rgb(19, 224, 204);"></line>
+	</g>
+</g>
+</svg>

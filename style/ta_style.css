@@ -1,0 +1,273 @@
+@media (min-width:481px) and (max-width:1121px) {
+    .contaner{
+        width:90%;
+        transform: translate(-50%,0%);
+        position: relative;
+        left: 50%;
+    }
+    .section{
+        width: 100%;
+        height: 100vh;
+    }
+    .box{
+        background: radial-gradient(var(--night-sky),var(--dark));
+        box-shadow: 1px 1px 10px 10px var(--dark);
+        position: relative;
+        transform: translate(-50%,0);
+        left: 50%;
+        border-radius: 20px;
+        top:100px
+    }
+    /*-----------------------------------------------------*/
+    main{
+        background-image: url(../images/background.jpg);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        border-radius: 0px 0px 30px 30px;
+        box-shadow: 0px 10px 40px 35px var(--dark);
+    }
+    main .contaner{
+        display: flex;
+        justify-content: center;
+    }
+    header{
+        width: 100%;
+        display: flex;
+        background-color: var(--night-sky);
+        box-shadow: 0px 2px 15px 15px var(--night-sky);
+        justify-content: space-around;
+        padding-top: 15px;
+        position: fixed;
+        z-index: 1000;
+    }
+    header .logo{
+        color: var(--lite-green);
+        text-shadow: 10px 10px 8px var(--dark);
+        width: 34%;
+    }
+    header nav{
+        width: 52%;
+    }
+    .nav-ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav-ul-btn{
+        color: var(--light);
+        font-size: 20px;
+        transition: .5s;
+        background-color: var(--night-sky);
+        border: 0;
+    }
+    .nav-ul-btn:hover{
+        text-decoration: overline;
+        padding: 6px 0 0;
+        color: var(--lite-green);
+    }
+    main .contaner{
+        display: flex;
+        justify-content: space-around;
+    }
+    main .contaner .me{
+        text-align: center;
+        position: relative;
+        top: 140px;
+        width: 34%;
+    }
+    main .contaner .me .img{
+        background-image: url(../images/issa.jpg);
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        background-size: cover;
+        box-shadow: 1px 1px 30px 15px var(--dark);
+    }
+    main .contaner .job-links{
+        position: relative;
+        top: 140px;
+        width: 52%;
+    }
+    main .contaner .job-links .hi{
+        color: var(--lite-green);
+        font-size: 32px;
+        text-shadow: 10px 10px 8px var(--dark);
+        font-weight: 700;
+    }
+    main .contaner .job-links p{
+        color: var(--light);
+        font-size: 25px;
+        font-weight: 900;
+        text-shadow: 10px 10px 8px var(--dark);
+    }
+    main .contaner .job-links ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 20px;
+    }
+    .job-links .links .link a img{
+        width: 40px;
+        height: 40px;
+    }
+    .about-icon{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        z-index: 10;
+    }
+    .about-index{
+        left: 50%;
+        padding: 10px 0;
+    }
+    .about-index .text{
+        color: var(--light);
+        text-align: center;
+        text-shadow: 10px 10px 8px var(--dark);
+        font-size: 18px;
+        position: relative;
+        left: 50%;
+        width: 66%;
+        transform: translate(-50%,0);
+    }
+    .info-lists{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 16px;
+    }
+    .about-index ul{
+        width: 45%;
+    }
+    .about-index li{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .about-index li .title{
+        color: var(--lite-green);
+        font-size: 18px;
+        text-shadow: 10px 10px 8px var(--dark);
+    }
+    .about-index li .value{
+        color: var(--light);
+        text-shadow: 10px 10px 8px var(--dark);
+        font-size: 16px;
+    }
+    .cv{
+        position: relative;
+        transform: translate(-50%,0);
+        left: 50%;
+        top: 120px;
+        background-color: var(--lite-green);
+        color: var(--night-sky);
+        border-radius: 10px;
+        font-size: 22px;
+        padding: 10px 8px;
+        border: 0;
+        transition: .4s;
+        box-shadow: 0px 2px 15px 15px var(--night-sky);
+        width: 140px;
+    }
+    .cv a{
+        color: var(--light);
+    }
+    .cv:hover{
+        padding: 16px 30px;
+    }
+
+    .services-index{
+        text-align: center;
+        padding: 8px 0 40px;
+    }
+    .services-index .services-icon{
+        width: 60px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
+    .services-index .text{
+        text-shadow: 10px 10px 8px var(--dark);
+        font-size: 18px;
+        color: var(--light);
+    }
+    .services-index .title{
+        font-size: 20px;
+        color: var(--lite-green);
+    }
+    .box-skills{
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    .skills-icon{
+        width: 60px;
+        height: 60px;
+    }
+    .skills_list_set{
+        width: 40%;
+        text-align: center;
+    }
+    .skills_list_set .title{
+        font-size: 20px;
+        color: var(--lite-green);
+        margin-bottom: 10px;
+    }
+    .skills_list_set .skill_name{
+        font-size: 18px;
+        color: var(--light)
+    }
+    .sec_text{
+        font-size: 20px;
+        color: var(--night-sky);
+        font-weight: 700;
+        position: relative;
+        top: 200px;
+        left: 50%;
+        width: 70%;
+        transform: translate(-50%,0);
+        text-align: center;
+    }
+
+    .works-icon{
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 80%;
+    }
+    .box-works{
+        padding: 30px 0 10px;
+    }
+    .text_of_work{
+        color: var(--lite-green);
+        font-size: 20px;
+        margin: 10px 20px;
+    }
+    .glimpse{
+        color: var(--light);
+        font-size: 18px;
+        margin: 30px 10px;
+    }
+    .list_works{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .list_works .work{
+        width: 180px;
+        height: 140px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 20px 1px var(--lite-green);
+        margin: 16px 4px;
+    }
+    .end{
+        text-align: center;
+        position: relative;
+        top: 350px;
+        padding: 0 0 20px;
+    }
+    .end h2{
+        color: var(--night-sky)
+    }
+}

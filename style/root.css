@@ -1,0 +1,25 @@
+:root{
+    --night-sky: rgb(35, 37, 61);
+    --light: white;
+    --dark: rgb(0, 13, 17);
+    --lite-green: rgb(19, 224, 204);
+    --background: rgb(182, 181, 188);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: var(--background);
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.cv:hover{
+    background-color: var(--night-sky);
+}
