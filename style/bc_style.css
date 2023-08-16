@@ -1,0 +1,276 @@
+@media (min-width: 1122px){
+    .contaner{
+        width:96%;
+        transform: translate(-50%,0%);
+        position: relative;
+        left: 50%;
+    }
+    .icon{
+        width: 44px;
+        height: 44px;
+        transition: .3s;
+    }
+    .icon:hover{
+        width: 60px;
+        height: 60px;
+    }
+    .box{
+        background: radial-gradient(var(--night-sky),var(--dark));
+        box-shadow: 1px 1px 10px 10px var(--dark);
+        width: 1000px;
+        position: relative;
+        transform: translate(-50%,0);
+        left: 50%;
+        border-radius: 20px;
+        top:100px
+    }
+    .section{
+        width: 100%;
+        height: 100vh;
+    }
+    /*-----------------------------------------------------*/
+    main{
+        background-image: url(../images/background.jpg);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        border-radius: 0px 0px 30px 30px;
+        box-shadow: 0px 10px 40px 35px var(--dark);
+    }
+    main .contaner{
+        display: flex;
+        justify-content: center;
+    }
+    header{
+        width: 100%;
+        display: flex;
+        background-color: var(--night-sky);
+        box-shadow: 0px 2px 15px 15px var(--night-sky);
+        justify-content: space-around;
+        padding-top: 15px;
+        position: fixed;
+        z-index: 1000;
+    }
+    header .logo{
+        color: var(--lite-green);
+        text-shadow: 10px 10px 8px var(--dark);
+        width: 40%;
+    }
+    header nav{
+        width: 40%;
+    }
+    .nav-ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav-ul-btn{
+        color: var(--light);
+        font-size: 20px;
+        transition: .5s;
+        background-color: var(--night-sky);
+        border: 0;
+    }
+    .nav-ul-btn:hover{
+        text-decoration: overline;
+        padding: 6px 0 0;
+        color: var(--lite-green);
+    }
+    main .contaner .me{
+        text-align: center;
+        position: relative;
+        top: 180px;
+    }
+    main .contaner .me .img{
+        background-image: url(../images/issa.jpg);
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background-size: cover;
+        box-shadow: 1px 1px 30px 15px var(--dark);
+    }
+    main .contaner .job-links{
+        position: relative;
+        top: 240px;
+        margin-left: 40px;
+    }
+    main .contaner .job-links .hi{
+        color: var(--lite-green);
+        font-size: 32px;
+        text-shadow: 10px 10px 8px var(--dark);
+        font-weight: 700;
+    }
+    main .contaner .job-links p{
+        color: var(--light);
+        font-size: 25px;
+        font-weight: 900;
+        text-shadow: 10px 10px 8px var(--dark);
+    }
+    main .contaner .job-links ul{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 20px;
+    }
+    .about-icon{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        transform: translate(30%,-30%);
+        z-index: 10;
+    }
+    .about-index{
+        left: 50%;
+        padding: 40px 0;
+    }
+    .about-index .text{
+        color: var(--light);
+        text-align: center;
+        text-shadow: 10px 10px 8px var(--dark);
+        font-size: 20px;
+        width: 66%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+    .info-lists{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 28px;
+    }
+    .about-index ul{
+        width: 45%;
+    }
+    .about-index li{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .about-index li .title{
+        color: var(--lite-green);
+        font-size: 24px;
+        text-shadow: 10px 10px 8px var(--dark);
+        width: 34%;
+    }
+    .about-index li .value{
+        color: var(--light);
+        width: 60%;
+        text-shadow: 10px 10px 8px var(--dark);
+        font-size: 24px;
+    }
+    .cv{
+        position: relative;
+        transform: translate(-50%,0);
+        left: 50%;
+        top: 200px;
+        background-color: var(--lite-green);
+        color: var(--night-sky);
+        border-radius: 10px;
+        font-size: 22px;
+        padding: 16px 20px;
+        border: 0;
+        transition: .4s;
+        box-shadow: 0px 2px 15px 15px var(--night-sky);
+    }
+    .cv a{
+        color: var(--light);
+    }
+    .cv:hover{
+        padding: 16px 30px;
+    }
+    
+    .services-index{
+        text-align: center;
+        padding: 10px 0 40px;
+    }
+    .services-index .services-icon{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+    .services-index .text{
+        text-shadow: 10px 10px 8px var(--dark);
+        font-size: 20px;
+        color: var(--light);
+    }
+    .services-index .title{
+        font-size: 22px;
+        color: var(--lite-green);
+        margin-bottom: 4px;
+    }
+    
+    .box-skills{
+        padding: 80px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    .skills-icon{
+        width: 140px;
+        height: 140px;
+    }
+    .skills_list_set{
+        width: 40%;
+        text-align: center;
+    }
+    .skills_list_set .title{
+        font-size: 30px;
+        color: var(--lite-green);
+        margin-bottom: 10px;
+    }
+    .skills_list_set .skill_name{
+        font-size: 28px;
+        color: var(--light)
+    }
+    .sec_text{
+        font-size: 22px;
+        color: var(--night-sky);
+        font-weight: 700;
+        position: relative;
+        top: 200px;
+        left: 50%;
+        width: 500px;
+        transform: translate(-50%,0);
+        text-align: center;
+    }
+    
+    .works-icon{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        left: 80%;
+    }
+    .box-works{
+        padding: 40px 0 20px;
+    }
+    .text_of_work{
+        color: var(--lite-green);
+        font-size: 24px;
+        margin: 10px 30px;
+    }
+    .glimpse{
+        color: var(--light);
+        font-size: 22px;
+        margin: 10px 30px;
+    }
+    .list_works{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .list_works .work{
+        width: 280px;
+        height: 240px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 20px 1px var(--lite-green);
+        margin: 20px 0;
+    }
+    .end{
+        text-align: center;
+        position: relative;
+        top: 250px;
+        padding: 0 0 20px;
+    }
+    .end h2{
+        color: var(--night-sky)
+    }
+}
